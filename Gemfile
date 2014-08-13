@@ -26,6 +26,7 @@ gem 'jbuilder', '1.0.2'
 gem 'figaro'
 gem 'foreman'
 gem 'factory_girl_rails', '4.2.0'
+gem 'dotenv-rails'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
