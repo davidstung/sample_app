@@ -15,6 +15,8 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 gem 'sass-rails', '4.0.1'
@@ -27,6 +29,7 @@ gem 'figaro'
 gem 'foreman'
 gem 'factory_girl_rails', '4.2.0'
 gem 'dotenv-rails'
+
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
