@@ -29,6 +29,8 @@ gem 'figaro'
 gem 'foreman'
 gem 'factory_girl_rails', '4.2.0'
 gem 'dotenv-rails'
+gem 'faker', '1.1.2'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 
 group :doc do
